@@ -1,0 +1,4 @@
+<p class="highlightMe" [ngClass]="{highlightMeOnline : serverStatus === 'online', highlightMeOffline : serverStatus === 'offline'}">
+    {{'Server'}} with name <i>{{serverName}}</i> and Id <b>{{ serverId }}</b> is {{ getServerStatus() }} .
+</p>
+<hr/>

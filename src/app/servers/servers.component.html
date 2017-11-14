@@ -1,0 +1,6 @@
+<button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer($event)">Create New Server</button>
+<input type="text" name="serverName" id="serverName" class="form-control" style="margin: 20px 0;" [(ngModel)]="serverName">
+
+<hr/>
+<app-server *ngFor="let server of servers" [serverId]="server.id" [serverName]="server.name"></app-server>
+

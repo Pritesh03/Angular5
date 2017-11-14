@@ -1,0 +1,18 @@
+.highlightMe {
+    color: #555;
+    font-weight: 400;
+    font-size: 1.1em;
+    margin: 15px 0;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.highlightMeOnline {
+    background-color: rgb(154, 212, 154);
+    border: 1px solid green;
+}
+
+.highlightMeOffline {
+    background-color: rgb(250, 182, 182);
+    border: 1px solid red;
+}
